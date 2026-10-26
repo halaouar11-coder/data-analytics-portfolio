@@ -1,0 +1,501 @@
+OrderID,OrderDate,Product,Region,Quantity,UnitPrice,UnitCost,PaymentMethod
+1,2025-05-06,Laptop,Rabat,3,7500,4171.9,Cash
+2,2025-02-14,Laptop,Tangier,5,7500,5393.81,Card
+3,2025-04-30,Laptop,Tangier,2,7500,4180.87,Bank Transfer
+4,2025-08-03,Laptop,Rabat,5,7500,5177.33,Card
+5,2025-03-23,Headphones,Marrakech,1,400,247.82,Card
+6,2025-02-22,Keyboard,Casablanca,3,250,147.22,Card
+7,2025-11-06,Laptop,Kenitra,3,7500,4798.09,Cash
+8,2025-02-10,Mouse,Tangier,4,120,82.09,Card
+9,2025-10-23,Headphones,Rabat,3,400,308.55,Bank Transfer
+10,2025-05-29,Laptop,Casablanca,2,7500,4210.92,Cash
+11,2025-11-22,Laptop,Kenitra,4,7500,4837.74,Cash
+12,2025-12-26,Keyboard,Casablanca,3,250,159.7,Bank Transfer
+13,2025-03-25,Monitor,Marrakech,2,1800,1230.36,Card
+14,2025-04-23,Keyboard,Kenitra,5,250,199.35,Cash
+15,2025-07-25,Monitor,Kenitra,3,1800,1359.81,Cash
+16,2025-06-11,Monitor,Rabat,5,1800,1400.91,Bank Transfer
+17,2025-03-15,Mouse,Kenitra,4,120,77.87,Cash
+18,2025-05-15,Monitor,Tangier,5,1800,1325.25,Card
+19,2025-03-12,Headphones,Tangier,2,400,259.94,Card
+20,2025-03-20,Laptop,Rabat,1,7500,5542.09,Bank Transfer
+21,2025-07-15,Mouse,Tangier,4,120,83.89,Card
+22,2025-01-06,Headphones,Casablanca,5,400,245.14,Bank Transfer
+23,2025-02-27,Headphones,Kenitra,3,400,295.09,Card
+24,2025-09-14,Monitor,Rabat,3,1800,1194.18,Bank Transfer
+25,2025-11-24,Laptop,Tangier,3,7500,5757.22,Bank Transfer
+26,2025-10-04,Monitor,Tangier,2,1800,1058.78,Cash
+27,2025-02-27,Headphones,Kenitra,1,400,252.42,Card
+28,2025-02-10,Monitor,Casablanca,5,1800,1016.07,Bank Transfer
+29,2025-03-06,Mouse,Rabat,5,120,90.48,Bank Transfer
+30,2025-05-16,Mouse,Tangier,2,120,94.41,Bank Transfer
+31,2025-12-20,Mouse,Rabat,5,120,94.93,Bank Transfer
+32,2025-08-13,Keyboard,Tangier,3,250,162.44,Card
+33,2025-06-23,Laptop,Casablanca,1,7500,4589.82,Bank Transfer
+34,2025-01-04,Headphones,Casablanca,2,400,243.01,Bank Transfer
+35,2025-06-19,Laptop,Casablanca,1,7500,4554.27,Bank Transfer
+36,2025-04-20,Monitor,Tangier,4,1800,1115.31,Cash
+37,2025-08-31,Headphones,Marrakech,2,400,277.62,Cash
+38,2025-07-01,Laptop,Marrakech,4,7500,4306.75,Card
+39,2025-12-11,Mouse,Casablanca,1,120,91.92,Cash
+40,2025-05-08,Mouse,Rabat,1,120,87.85,Cash
+41,2025-04-04,Headphones,Kenitra,4,400,264.86,Card
+42,2025-08-15,Monitor,Tangier,1,1800,1383.52,Cash
+43,2025-01-08,Laptop,Casablanca,5,7500,5347.77,Cash
+44,2025-04-20,Monitor,Marrakech,4,1800,1172.89,Cash
+45,2025-05-16,Monitor,Marrakech,4,1800,1160.54,Card
+46,2025-12-05,Mouse,Marrakech,5,120,86.9,Cash
+47,2025-10-24,Monitor,Tangier,1,1800,1123.52,Cash
+48,2025-09-02,Keyboard,Tangier,5,250,141.07,Bank Transfer
+49,2025-02-11,Monitor,Rabat,5,1800,1015.6,Cash
+50,2025-07-26,Headphones,Casablanca,2,400,226.8,Bank Transfer
+51,2025-11-14,Monitor,Casablanca,1,1800,1250.51,Card
+52,2025-05-14,Headphones,Rabat,3,400,276.52,Bank Transfer
+53,2025-03-09,Keyboard,Kenitra,4,250,152.42,Card
+54,2025-01-05,Keyboard,Marrakech,1,250,195.56,Bank Transfer
+55,2025-10-03,Headphones,Rabat,1,400,319.61,Bank Transfer
+56,2025-02-05,Keyboard,Rabat,3,250,145.78,Card
+57,2025-12-27,Keyboard,Kenitra,5,250,147.36,Bank Transfer
+58,2025-06-03,Headphones,Casablanca,5,400,220.78,Cash
+59,2025-10-11,Keyboard,Rabat,1,250,144.71,Card
+60,2025-04-15,Keyboard,Kenitra,3,250,175.3,Bank Transfer
+61,2025-02-17,Mouse,Marrakech,1,120,73.53,Card
+62,2025-11-23,Laptop,Kenitra,2,7500,4131.65,Cash
+63,2025-10-15,Mouse,Casablanca,4,120,82.55,Cash
+64,2025-10-07,Laptop,Casablanca,2,7500,5896.97,Card
+65,2025-03-07,Headphones,Casablanca,4,400,275.25,Card
+66,2025-07-03,Keyboard,Rabat,1,250,193.69,Bank Transfer
+67,2025-10-14,Monitor,Marrakech,3,1800,1290.12,Bank Transfer
+68,2025-03-25,Monitor,Rabat,2,1800,1406.59,Card
+69,2025-07-30,Laptop,Rabat,3,7500,4461.3,Card
+70,2025-07-15,Monitor,Casablanca,1,1800,1344.32,Card
+71,2025-06-29,Monitor,Kenitra,4,1800,1079.81,Cash
+72,2025-07-24,Monitor,Kenitra,2,1800,1000.65,Card
+73,2025-06-29,Laptop,Tangier,3,7500,5937.92,Card
+74,2025-03-01,Headphones,Kenitra,1,400,253.11,Cash
+75,2025-01-20,Headphones,Casablanca,3,400,316.25,Bank Transfer
+76,2025-08-12,Mouse,Tangier,3,120,76.37,Bank Transfer
+77,2025-04-08,Laptop,Kenitra,5,7500,4847.24,Cash
+78,2025-12-18,Mouse,Rabat,5,120,66.05,Card
+79,2025-11-16,Mouse,Kenitra,3,120,68.1,Bank Transfer
+80,2025-09-17,Laptop,Kenitra,3,7500,5474.54,Bank Transfer
+81,2025-10-11,Mouse,Rabat,3,120,75.79,Cash
+82,2025-12-13,Mouse,Rabat,4,120,85.95,Bank Transfer
+83,2025-01-01,Headphones,Kenitra,5,400,250.09,Card
+84,2025-11-07,Monitor,Kenitra,5,1800,1183.45,Card
+85,2025-09-19,Mouse,Marrakech,2,120,79.26,Bank Transfer
+86,2025-09-21,Monitor,Tangier,3,1800,1286.48,Card
+87,2025-12-11,Laptop,Kenitra,2,7500,5659.54,Cash
+88,2025-05-06,Monitor,Marrakech,1,1800,1056.31,Bank Transfer
+89,2025-04-10,Laptop,Marrakech,5,7500,4978.91,Card
+90,2025-02-24,Mouse,Marrakech,1,120,73.32,Cash
+91,2025-08-26,Monitor,Casablanca,5,1800,1351.85,Bank Transfer
+92,2025-08-22,Monitor,Rabat,1,1800,1402.86,Card
+93,2025-06-12,Headphones,Marrakech,5,400,318.79,Bank Transfer
+94,2025-08-17,Headphones,Rabat,5,400,262.67,Bank Transfer
+95,2025-11-23,Mouse,Kenitra,2,120,79.5,Bank Transfer
+96,2025-08-14,Mouse,Casablanca,3,120,84.8,Bank Transfer
+97,2025-06-13,Keyboard,Tangier,3,250,152.16,Cash
+98,2025-12-22,Monitor,Rabat,4,1800,1057.87,Bank Transfer
+99,2025-06-19,Monitor,Tangier,4,1800,1018.9,Card
+100,2025-07-19,Mouse,Tangier,4,120,67.87,Bank Transfer
+101,2025-07-14,Laptop,Marrakech,5,7500,5731.37,Cash
+102,2025-08-03,Keyboard,Tangier,4,250,156.16,Bank Transfer
+103,2025-09-07,Headphones,Rabat,2,400,299.99,Card
+104,2025-06-22,Mouse,Marrakech,4,120,80.57,Bank Transfer
+105,2025-11-15,Monitor,Tangier,2,1800,1368.23,Cash
+106,2025-02-12,Mouse,Marrakech,1,120,83.76,Cash
+107,2025-07-14,Mouse,Kenitra,3,120,71.45,Cash
+108,2025-05-23,Mouse,Marrakech,4,120,75.81,Card
+109,2025-01-27,Laptop,Kenitra,5,7500,5006.83,Cash
+110,2025-01-16,Laptop,Rabat,1,7500,5589.81,Cash
+111,2025-03-06,Laptop,Marrakech,2,7500,5290.0,Bank Transfer
+112,2025-08-27,Laptop,Kenitra,2,7500,5182.44,Card
+113,2025-03-25,Monitor,Kenitra,1,1800,1262.65,Cash
+114,2025-10-22,Headphones,Marrakech,3,400,222.57,Card
+115,2025-02-22,Monitor,Kenitra,2,1800,1024.2,Bank Transfer
+116,2025-01-22,Headphones,Kenitra,5,400,300.55,Bank Transfer
+117,2025-09-17,Mouse,Kenitra,1,120,85.85,Cash
+118,2025-08-10,Mouse,Kenitra,1,120,90.67,Bank Transfer
+119,2025-04-01,Mouse,Tangier,4,120,87.22,Bank Transfer
+120,2025-09-05,Keyboard,Marrakech,5,250,175.99,Card
+121,2025-02-14,Headphones,Kenitra,2,400,246.84,Card
+122,2025-11-09,Monitor,Marrakech,5,1800,1327.71,Card
+123,2025-04-04,Laptop,Marrakech,3,7500,5051.82,Cash
+124,2025-05-24,Keyboard,Tangier,3,250,187.36,Bank Transfer
+125,2025-04-08,Keyboard,Casablanca,5,250,172.24,Cash
+126,2025-12-20,Mouse,Marrakech,2,120,80.66,Bank Transfer
+127,2025-02-17,Mouse,Kenitra,1,120,79.45,Cash
+128,2025-12-06,Mouse,Tangier,3,120,86.75,Card
+129,2025-08-06,Mouse,Tangier,3,120,82.6,Card
+130,2025-06-06,Keyboard,Kenitra,3,250,181.43,Cash
+131,2025-03-03,Laptop,Tangier,3,7500,5477.41,Bank Transfer
+132,2025-05-22,Monitor,Tangier,4,1800,1076.19,Bank Transfer
+133,2025-04-10,Headphones,Kenitra,1,400,248.3,Cash
+134,2025-12-29,Keyboard,Tangier,1,250,148.72,Cash
+135,2025-10-11,Keyboard,Kenitra,1,250,140.34,Bank Transfer
+136,2025-02-22,Monitor,Casablanca,4,1800,1277.04,Bank Transfer
+137,2025-06-24,Keyboard,Rabat,4,250,166.84,Cash
+138,2025-02-28,Keyboard,Casablanca,4,250,196.32,Card
+139,2025-03-19,Mouse,Rabat,1,120,68.22,Bank Transfer
+140,2025-03-02,Keyboard,Tangier,2,250,142.82,Card
+141,2025-04-26,Headphones,Tangier,5,400,279.61,Card
+142,2025-10-29,Mouse,Marrakech,3,120,93.26,Card
+143,2025-02-20,Headphones,Rabat,5,400,282.1,Bank Transfer
+144,2025-03-22,Monitor,Rabat,1,1800,1109.09,Cash
+145,2025-07-29,Headphones,Marrakech,1,400,227.51,Bank Transfer
+146,2025-04-29,Headphones,Kenitra,1,400,266.99,Bank Transfer
+147,2025-02-06,Keyboard,Rabat,4,250,181.44,Card
+148,2025-08-06,Headphones,Casablanca,2,400,286.12,Bank Transfer
+149,2025-03-14,Monitor,Casablanca,3,1800,1281.44,Cash
+150,2025-10-19,Monitor,Kenitra,5,1800,1346.68,Card
+151,2025-12-25,Laptop,Marrakech,3,7500,5003.81,Card
+152,2025-02-11,Headphones,Tangier,4,400,274.0,Cash
+153,2025-05-09,Mouse,Casablanca,5,120,88.04,Cash
+154,2025-10-28,Monitor,Casablanca,5,1800,1422.86,Bank Transfer
+155,2025-08-29,Keyboard,Tangier,2,250,173.52,Bank Transfer
+156,2025-10-27,Mouse,Marrakech,2,120,93.48,Bank Transfer
+157,2025-06-28,Mouse,Marrakech,4,120,95.07,Card
+158,2025-06-18,Keyboard,Marrakech,2,250,179.38,Bank Transfer
+159,2025-10-09,Mouse,Casablanca,4,120,74.65,Card
+160,2025-03-01,Laptop,Marrakech,3,7500,4714.72,Bank Transfer
+161,2025-08-25,Laptop,Marrakech,5,7500,5358.11,Cash
+162,2025-09-13,Monitor,Marrakech,5,1800,1223.3,Cash
+163,2025-05-28,Monitor,Marrakech,2,1800,1110.18,Bank Transfer
+164,2025-05-03,Mouse,Rabat,5,120,69.64,Card
+165,2025-02-17,Headphones,Rabat,4,400,221.37,Cash
+166,2025-09-13,Mouse,Kenitra,2,120,94.41,Bank Transfer
+167,2025-08-30,Keyboard,Rabat,4,250,163.47,Card
+168,2025-11-03,Headphones,Tangier,2,400,234.46,Bank Transfer
+169,2025-08-01,Monitor,Kenitra,3,1800,1378.81,Bank Transfer
+170,2025-06-02,Keyboard,Tangier,3,250,188.78,Bank Transfer
+171,2025-10-03,Mouse,Marrakech,4,120,91.96,Card
+172,2025-07-13,Keyboard,Marrakech,5,250,171.99,Card
+173,2025-10-20,Monitor,Marrakech,2,1800,1431.35,Cash
+174,2025-12-28,Mouse,Marrakech,4,120,67.31,Card
+175,2025-03-06,Monitor,Tangier,1,1800,1212.9,Bank Transfer
+176,2025-02-21,Keyboard,Tangier,4,250,191.86,Card
+177,2025-12-02,Laptop,Rabat,4,7500,5479.58,Cash
+178,2025-06-23,Mouse,Tangier,3,120,89.45,Bank Transfer
+179,2025-12-12,Mouse,Tangier,3,120,85.5,Card
+180,2025-10-05,Keyboard,Casablanca,4,250,176.67,Bank Transfer
+181,2025-04-27,Laptop,Casablanca,3,7500,4565.19,Card
+182,2025-08-16,Laptop,Rabat,1,7500,5550.69,Bank Transfer
+183,2025-06-16,Keyboard,Casablanca,1,250,193.96,Card
+184,2025-05-06,Keyboard,Tangier,2,250,160.93,Card
+185,2025-03-29,Headphones,Rabat,2,400,288.18,Cash
+186,2025-12-16,Headphones,Rabat,5,400,307.08,Card
+187,2025-11-23,Headphones,Kenitra,4,400,234.31,Card
+188,2025-05-28,Keyboard,Tangier,4,250,179.18,Cash
+189,2025-10-28,Laptop,Kenitra,3,7500,4953.24,Bank Transfer
+190,2025-06-04,Mouse,Rabat,4,120,86.71,Card
+191,2025-10-20,Mouse,Kenitra,4,120,69.2,Bank Transfer
+192,2025-01-12,Keyboard,Marrakech,3,250,199.54,Card
+193,2025-11-07,Laptop,Marrakech,1,7500,5186.12,Card
+194,2025-04-23,Monitor,Rabat,3,1800,1263.18,Bank Transfer
+195,2025-11-18,Keyboard,Casablanca,2,250,179.86,Bank Transfer
+196,2025-01-18,Laptop,Tangier,4,7500,4704.25,Card
+197,2025-06-17,Monitor,Marrakech,3,1800,1030.56,Cash
+198,2025-07-07,Monitor,Tangier,5,1800,1049.47,Bank Transfer
+199,2025-09-04,Keyboard,Kenitra,3,250,189.4,Bank Transfer
+200,2025-02-08,Keyboard,Rabat,4,250,187.76,Cash
+201,2025-07-07,Mouse,Casablanca,5,120,95.02,Card
+202,2025-08-21,Laptop,Kenitra,1,7500,4620.86,Bank Transfer
+203,2025-02-25,Keyboard,Rabat,3,250,174.04,Card
+204,2025-06-17,Laptop,Tangier,5,7500,5286.65,Cash
+205,2025-12-25,Laptop,Kenitra,4,7500,5316.38,Bank Transfer
+206,2025-01-20,Mouse,Kenitra,1,120,69.5,Card
+207,2025-03-11,Laptop,Marrakech,5,7500,4307.23,Card
+208,2025-08-03,Keyboard,Tangier,5,250,179.41,Bank Transfer
+209,2025-09-08,Monitor,Tangier,1,1800,1388.44,Card
+210,2025-04-22,Keyboard,Marrakech,3,250,139.54,Card
+211,2025-12-18,Monitor,Kenitra,1,1800,1374.95,Bank Transfer
+212,2025-04-08,Keyboard,Casablanca,3,250,141.28,Card
+213,2025-01-11,Laptop,Casablanca,5,7500,5367.69,Card
+214,2025-04-16,Monitor,Casablanca,5,1800,1434.97,Bank Transfer
+215,2025-06-18,Monitor,Rabat,2,1800,1253.87,Bank Transfer
+216,2025-03-08,Laptop,Tangier,2,7500,4644.89,Card
+217,2025-03-09,Monitor,Casablanca,1,1800,1039.47,Card
+218,2025-03-31,Monitor,Kenitra,1,1800,1254.98,Cash
+219,2025-02-28,Monitor,Casablanca,5,1800,1323.77,Card
+220,2025-10-31,Mouse,Casablanca,5,120,89.34,Card
+221,2025-01-23,Headphones,Tangier,5,400,242.15,Card
+222,2025-02-01,Mouse,Marrakech,1,120,85.3,Card
+223,2025-12-31,Mouse,Marrakech,4,120,86.58,Cash
+224,2025-02-03,Laptop,Rabat,2,7500,4728.96,Card
+225,2025-12-31,Headphones,Kenitra,5,400,283.31,Card
+226,2025-09-16,Headphones,Tangier,4,400,273.06,Card
+227,2025-12-02,Laptop,Tangier,1,7500,5612.06,Bank Transfer
+228,2025-07-31,Monitor,Kenitra,2,1800,1183.53,Card
+229,2025-06-10,Mouse,Marrakech,1,120,78.48,Card
+230,2025-12-18,Keyboard,Marrakech,2,250,160.89,Cash
+231,2025-08-10,Laptop,Casablanca,1,7500,5684.57,Bank Transfer
+232,2025-01-31,Keyboard,Tangier,5,250,188.24,Bank Transfer
+233,2025-07-30,Headphones,Kenitra,1,400,252.96,Bank Transfer
+234,2025-05-28,Mouse,Tangier,1,120,92.04,Card
+235,2025-04-19,Keyboard,Rabat,5,250,143.98,Bank Transfer
+236,2025-06-29,Mouse,Tangier,1,120,72.73,Card
+237,2025-04-26,Laptop,Marrakech,5,7500,5554.89,Bank Transfer
+238,2025-01-14,Headphones,Tangier,5,400,281.36,Bank Transfer
+239,2025-12-26,Keyboard,Kenitra,3,250,139.31,Card
+240,2025-10-17,Keyboard,Marrakech,2,250,137.88,Cash
+241,2025-02-16,Monitor,Tangier,1,1800,1323.44,Cash
+242,2025-03-22,Mouse,Kenitra,3,120,78.59,Card
+243,2025-11-02,Keyboard,Casablanca,5,250,186.05,Cash
+244,2025-01-26,Monitor,Casablanca,5,1800,1060.83,Card
+245,2025-11-07,Mouse,Marrakech,4,120,85.86,Card
+246,2025-02-28,Keyboard,Kenitra,5,250,150.97,Card
+247,2025-09-07,Laptop,Tangier,5,7500,4656.09,Bank Transfer
+248,2025-11-03,Keyboard,Casablanca,4,250,140.34,Cash
+249,2025-03-12,Monitor,Kenitra,2,1800,1125.64,Card
+250,2025-08-09,Keyboard,Rabat,4,250,145.0,Cash
+251,2025-09-14,Mouse,Tangier,2,120,81.98,Bank Transfer
+252,2025-08-12,Keyboard,Casablanca,1,250,142.0,Card
+253,2025-08-08,Laptop,Tangier,5,7500,5741.46,Card
+254,2025-01-11,Mouse,Kenitra,4,120,74.69,Cash
+255,2025-02-15,Headphones,Marrakech,3,400,266.01,Cash
+256,2025-09-26,Monitor,Casablanca,4,1800,1186.05,Card
+257,2025-06-20,Keyboard,Rabat,2,250,184.11,Cash
+258,2025-09-19,Headphones,Rabat,5,400,283.32,Card
+259,2025-05-01,Keyboard,Casablanca,2,250,182.96,Cash
+260,2025-03-20,Keyboard,Casablanca,5,250,149.83,Cash
+261,2025-10-24,Mouse,Marrakech,5,120,79.92,Bank Transfer
+262,2025-06-15,Headphones,Kenitra,5,400,284.3,Cash
+263,2025-11-20,Mouse,Kenitra,4,120,68.05,Card
+264,2025-02-07,Headphones,Kenitra,5,400,225.62,Card
+265,2025-05-27,Mouse,Casablanca,3,120,67.13,Bank Transfer
+266,2025-07-16,Laptop,Marrakech,5,7500,5278.14,Bank Transfer
+267,2025-08-19,Headphones,Tangier,1,400,315.42,Bank Transfer
+268,2025-09-14,Monitor,Rabat,4,1800,1134.69,Cash
+269,2025-02-13,Mouse,Tangier,3,120,69.11,Bank Transfer
+270,2025-08-13,Monitor,Tangier,4,1800,1007.61,Bank Transfer
+271,2025-05-25,Headphones,Marrakech,3,400,235.87,Card
+272,2025-11-20,Keyboard,Kenitra,1,250,179.93,Cash
+273,2025-05-26,Keyboard,Kenitra,4,250,143.41,Bank Transfer
+274,2025-02-11,Headphones,Tangier,3,400,307.33,Bank Transfer
+275,2025-12-02,Monitor,Marrakech,3,1800,1402.54,Cash
+276,2025-06-08,Headphones,Tangier,1,400,290.88,Card
+277,2025-02-17,Keyboard,Marrakech,5,250,188.32,Bank Transfer
+278,2025-04-03,Keyboard,Rabat,3,250,138.64,Card
+279,2025-03-21,Mouse,Casablanca,2,120,71.76,Card
+280,2025-09-27,Laptop,Casablanca,5,7500,5076.92,Bank Transfer
+281,2025-03-09,Keyboard,Tangier,5,250,192.27,Card
+282,2025-03-26,Monitor,Marrakech,5,1800,1063.01,Cash
+283,2025-08-16,Mouse,Tangier,2,120,76.93,Card
+284,2025-06-08,Mouse,Marrakech,2,120,73.02,Cash
+285,2025-08-14,Keyboard,Marrakech,5,250,179.89,Card
+286,2025-03-24,Mouse,Rabat,4,120,81.09,Bank Transfer
+287,2025-11-25,Monitor,Marrakech,1,1800,1382.85,Card
+288,2025-03-05,Headphones,Kenitra,5,400,313.43,Cash
+289,2025-03-17,Monitor,Marrakech,5,1800,1112.76,Cash
+290,2025-01-14,Monitor,Marrakech,3,1800,1357.52,Cash
+291,2025-07-17,Mouse,Casablanca,2,120,81.06,Card
+292,2025-11-29,Monitor,Kenitra,1,1800,1002.68,Cash
+293,2025-12-23,Monitor,Rabat,4,1800,1007.24,Bank Transfer
+294,2025-02-10,Mouse,Casablanca,1,120,79.46,Card
+295,2025-11-08,Monitor,Tangier,5,1800,1365.73,Card
+296,2025-06-04,Laptop,Casablanca,2,7500,5580.32,Cash
+297,2025-08-23,Monitor,Casablanca,5,1800,1178.92,Cash
+298,2025-11-20,Mouse,Tangier,1,120,83.9,Bank Transfer
+299,2025-08-08,Monitor,Casablanca,3,1800,1313.34,Bank Transfer
+300,2025-04-06,Keyboard,Casablanca,4,250,152.54,Bank Transfer
+301,2025-10-06,Keyboard,Tangier,5,250,141.73,Bank Transfer
+302,2025-01-23,Headphones,Marrakech,4,400,222.03,Card
+303,2025-02-04,Keyboard,Kenitra,3,250,184.21,Cash
+304,2025-03-10,Laptop,Casablanca,3,7500,5571.57,Card
+305,2025-12-17,Headphones,Marrakech,2,400,253.85,Bank Transfer
+306,2025-02-02,Mouse,Marrakech,2,120,84.95,Cash
+307,2025-01-22,Keyboard,Kenitra,2,250,150.1,Card
+308,2025-08-31,Headphones,Kenitra,5,400,259.82,Cash
+309,2025-12-02,Monitor,Kenitra,1,1800,1118.75,Card
+310,2025-07-24,Laptop,Marrakech,4,7500,5623.77,Card
+311,2025-12-21,Keyboard,Marrakech,4,250,198.36,Card
+312,2025-08-06,Headphones,Casablanca,1,400,246.67,Card
+313,2025-10-07,Headphones,Kenitra,2,400,319.51,Card
+314,2025-06-06,Laptop,Marrakech,3,7500,4275.13,Bank Transfer
+315,2025-06-29,Mouse,Marrakech,4,120,71.0,Cash
+316,2025-05-21,Keyboard,Casablanca,4,250,175.93,Cash
+317,2025-01-16,Mouse,Rabat,2,120,76.9,Bank Transfer
+318,2025-05-01,Mouse,Kenitra,1,120,67.04,Card
+319,2025-11-06,Mouse,Rabat,1,120,94.48,Bank Transfer
+320,2025-08-16,Mouse,Casablanca,3,120,94.46,Bank Transfer
+321,2025-06-10,Monitor,Kenitra,4,1800,1228.26,Cash
+322,2025-09-13,Laptop,Tangier,2,7500,4173.59,Card
+323,2025-12-27,Headphones,Marrakech,3,400,231.78,Cash
+324,2025-04-13,Headphones,Casablanca,4,400,248.56,Cash
+325,2025-02-14,Laptop,Kenitra,4,7500,4972.58,Bank Transfer
+326,2025-10-05,Keyboard,Kenitra,5,250,181.85,Card
+327,2025-07-05,Monitor,Tangier,2,1800,1310.31,Cash
+328,2025-05-02,Laptop,Marrakech,2,7500,5972.12,Cash
+329,2025-08-28,Keyboard,Tangier,3,250,172.13,Cash
+330,2025-06-08,Headphones,Marrakech,1,400,308.42,Bank Transfer
+331,2025-10-22,Mouse,Casablanca,4,120,81.77,Cash
+332,2025-08-27,Keyboard,Tangier,4,250,177.65,Card
+333,2025-11-24,Monitor,Tangier,5,1800,1385.08,Cash
+334,2025-03-05,Monitor,Tangier,1,1800,1184.68,Cash
+335,2025-12-30,Keyboard,Rabat,3,250,147.79,Card
+336,2025-05-09,Headphones,Rabat,1,400,309.49,Bank Transfer
+337,2025-11-11,Headphones,Tangier,3,400,247.45,Cash
+338,2025-10-25,Headphones,Rabat,5,400,284.1,Cash
+339,2025-06-22,Headphones,Tangier,5,400,292.06,Cash
+340,2025-05-16,Laptop,Rabat,5,7500,4277.29,Bank Transfer
+341,2025-09-12,Mouse,Tangier,1,120,84.54,Card
+342,2025-06-02,Keyboard,Marrakech,4,250,167.68,Cash
+343,2025-09-05,Laptop,Marrakech,4,7500,4421.4,Cash
+344,2025-06-13,Keyboard,Kenitra,3,250,175.42,Card
+345,2025-10-15,Monitor,Casablanca,5,1800,1332.3,Card
+346,2025-08-19,Monitor,Rabat,3,1800,1199.91,Cash
+347,2025-11-12,Laptop,Marrakech,4,7500,4219.88,Cash
+348,2025-06-10,Monitor,Rabat,5,1800,1356.07,Cash
+349,2025-09-13,Mouse,Kenitra,4,120,95.88,Card
+350,2025-09-16,Laptop,Marrakech,4,7500,4293.84,Cash
+351,2025-01-26,Monitor,Kenitra,1,1800,1252.5,Card
+352,2025-05-27,Headphones,Tangier,4,400,308.23,Cash
+353,2025-07-07,Laptop,Marrakech,3,7500,4932.99,Card
+354,2025-10-15,Laptop,Rabat,5,7500,4876.09,Card
+355,2025-09-16,Headphones,Marrakech,4,400,248.86,Bank Transfer
+356,2025-12-15,Keyboard,Tangier,5,250,189.08,Cash
+357,2025-07-11,Monitor,Kenitra,4,1800,1428.79,Bank Transfer
+358,2025-11-05,Keyboard,Tangier,2,250,184.69,Card
+359,2025-03-12,Headphones,Kenitra,1,400,224.03,Card
+360,2025-09-21,Headphones,Rabat,5,400,265.7,Card
+361,2025-11-12,Headphones,Kenitra,4,400,251.85,Bank Transfer
+362,2025-09-30,Keyboard,Marrakech,5,250,169.21,Bank Transfer
+363,2025-07-08,Headphones,Kenitra,1,400,249.98,Bank Transfer
+364,2025-06-07,Laptop,Casablanca,5,7500,5962.31,Bank Transfer
+365,2025-10-23,Mouse,Rabat,5,120,73.97,Bank Transfer
+366,2025-09-26,Laptop,Tangier,2,7500,5219.11,Card
+367,2025-01-17,Monitor,Tangier,2,1800,1359.75,Bank Transfer
+368,2025-06-10,Laptop,Marrakech,4,7500,4482.72,Cash
+369,2025-09-14,Mouse,Tangier,4,120,86.72,Card
+370,2025-04-17,Laptop,Tangier,5,7500,5448.33,Card
+371,2025-03-30,Mouse,Marrakech,3,120,81.76,Bank Transfer
+372,2025-11-09,Keyboard,Marrakech,3,250,171.64,Cash
+373,2025-04-26,Monitor,Kenitra,3,1800,1115.55,Card
+374,2025-06-12,Monitor,Marrakech,4,1800,1300.61,Card
+375,2025-05-28,Headphones,Casablanca,3,400,313.37,Bank Transfer
+376,2025-06-26,Headphones,Rabat,4,400,257.97,Card
+377,2025-06-27,Laptop,Marrakech,1,7500,4664.31,Bank Transfer
+378,2025-04-14,Keyboard,Tangier,2,250,184.21,Card
+379,2025-02-25,Headphones,Tangier,2,400,289.62,Bank Transfer
+380,2025-12-09,Headphones,Tangier,1,400,243.93,Cash
+381,2025-06-19,Monitor,Marrakech,4,1800,1013.62,Cash
+382,2025-03-22,Monitor,Marrakech,5,1800,992.33,Bank Transfer
+383,2025-05-28,Mouse,Kenitra,2,120,80.32,Card
+384,2025-11-30,Laptop,Tangier,1,7500,5827.38,Cash
+385,2025-03-31,Headphones,Marrakech,1,400,293.87,Cash
+386,2025-09-11,Laptop,Rabat,4,7500,5994.7,Bank Transfer
+387,2025-06-02,Keyboard,Tangier,1,250,192.3,Bank Transfer
+388,2025-05-26,Laptop,Marrakech,3,7500,5865.85,Bank Transfer
+389,2025-09-16,Headphones,Marrakech,2,400,272.43,Card
+390,2025-03-25,Monitor,Marrakech,3,1800,1353.97,Bank Transfer
+391,2025-06-22,Keyboard,Kenitra,1,250,182.41,Bank Transfer
+392,2025-08-07,Monitor,Tangier,4,1800,1068.97,Card
+393,2025-04-05,Laptop,Rabat,1,7500,4876.56,Card
+394,2025-05-14,Keyboard,Marrakech,1,250,195.99,Cash
+395,2025-06-04,Mouse,Tangier,3,120,88.61,Bank Transfer
+396,2025-12-21,Headphones,Rabat,3,400,221.14,Cash
+397,2025-07-27,Laptop,Tangier,2,7500,4997.62,Bank Transfer
+398,2025-07-08,Keyboard,Tangier,3,250,180.64,Cash
+399,2025-03-20,Monitor,Marrakech,4,1800,1420.81,Bank Transfer
+400,2025-08-30,Headphones,Tangier,5,400,257.36,Bank Transfer
+401,2025-02-11,Monitor,Tangier,5,1800,1332.84,Card
+402,2025-10-16,Headphones,Casablanca,1,400,290.38,Cash
+403,2025-10-21,Headphones,Tangier,2,400,310.29,Cash
+404,2025-08-15,Monitor,Casablanca,5,1800,1137.65,Bank Transfer
+405,2025-02-16,Monitor,Tangier,4,1800,1312.61,Card
+406,2025-08-01,Laptop,Marrakech,5,7500,4975.19,Bank Transfer
+407,2025-01-12,Laptop,Marrakech,3,7500,5172.74,Card
+408,2025-02-07,Laptop,Casablanca,5,7500,5523.38,Card
+409,2025-01-31,Keyboard,Casablanca,5,250,181.27,Card
+410,2025-03-11,Laptop,Marrakech,2,7500,4663.3,Card
+411,2025-07-12,Mouse,Casablanca,4,120,79.46,Bank Transfer
+412,2025-03-02,Headphones,Rabat,3,400,233.3,Bank Transfer
+413,2025-01-02,Mouse,Casablanca,2,120,81.87,Card
+414,2025-08-06,Mouse,Tangier,5,120,86.2,Card
+415,2025-03-21,Monitor,Kenitra,3,1800,1101.38,Cash
+416,2025-11-11,Laptop,Casablanca,4,7500,4185.41,Cash
+417,2025-01-18,Monitor,Marrakech,5,1800,1020.28,Bank Transfer
+418,2025-07-25,Laptop,Marrakech,1,7500,4583.88,Cash
+419,2025-03-13,Headphones,Tangier,1,400,241.73,Card
+420,2025-06-13,Monitor,Tangier,5,1800,1357.1,Bank Transfer
+421,2025-12-05,Keyboard,Tangier,2,250,152.31,Cash
+422,2025-10-13,Mouse,Tangier,1,120,75.02,Bank Transfer
+423,2025-10-12,Monitor,Marrakech,4,1800,1271.7,Cash
+424,2025-09-26,Keyboard,Kenitra,4,250,196.35,Bank Transfer
+425,2025-07-12,Mouse,Rabat,3,120,78.25,Bank Transfer
+426,2025-06-03,Mouse,Rabat,2,120,73.23,Card
+427,2025-10-13,Laptop,Tangier,4,7500,5179.47,Cash
+428,2025-06-19,Mouse,Casablanca,2,120,73.29,Card
+429,2025-01-27,Keyboard,Kenitra,2,250,143.28,Card
+430,2025-04-07,Headphones,Tangier,1,400,280.29,Bank Transfer
+431,2025-06-20,Headphones,Kenitra,2,400,241.7,Cash
+432,2025-09-03,Monitor,Rabat,1,1800,1411.72,Bank Transfer
+433,2025-05-03,Headphones,Tangier,4,400,290.38,Card
+434,2025-11-29,Keyboard,Kenitra,5,250,161.29,Card
+435,2025-08-27,Keyboard,Casablanca,4,250,159.98,Bank Transfer
+436,2025-04-15,Mouse,Kenitra,3,120,88.85,Card
+437,2025-03-16,Mouse,Casablanca,2,120,67.37,Card
+438,2025-08-02,Headphones,Kenitra,5,400,313.48,Cash
+439,2025-10-19,Monitor,Rabat,4,1800,1138.44,Card
+440,2025-05-12,Headphones,Marrakech,3,400,285.46,Bank Transfer
+441,2025-03-28,Mouse,Rabat,3,120,79.82,Bank Transfer
+442,2025-11-25,Headphones,Casablanca,5,400,268.83,Bank Transfer
+443,2025-12-09,Laptop,Casablanca,1,7500,5698.25,Cash
+444,2025-02-04,Mouse,Rabat,2,120,70.12,Cash
+445,2025-01-31,Monitor,Tangier,3,1800,1217.58,Bank Transfer
+446,2025-01-09,Headphones,Casablanca,4,400,311.28,Bank Transfer
+447,2025-09-29,Headphones,Kenitra,1,400,261.13,Bank Transfer
+448,2025-04-02,Keyboard,Casablanca,4,250,138.57,Cash
+449,2025-11-14,Headphones,Tangier,2,400,234.89,Card
+450,2025-02-10,Keyboard,Kenitra,4,250,154.21,Card
+451,2025-06-03,Mouse,Casablanca,2,120,82.95,Bank Transfer
+452,2025-07-13,Laptop,Tangier,4,7500,4300.31,Card
+453,2025-02-12,Laptop,Marrakech,2,7500,5318.9,Card
+454,2025-09-28,Keyboard,Casablanca,1,250,172.87,Cash
+455,2025-09-01,Monitor,Kenitra,5,1800,1395.57,Cash
+456,2025-10-06,Laptop,Tangier,3,7500,5408.3,Bank Transfer
+457,2025-01-09,Laptop,Rabat,3,7500,4461.29,Bank Transfer
+458,2025-02-09,Monitor,Kenitra,4,1800,1328.51,Cash
+459,2025-12-13,Headphones,Tangier,4,400,244.05,Card
+460,2025-12-19,Mouse,Casablanca,2,120,88.67,Bank Transfer
+461,2025-04-29,Keyboard,Casablanca,4,250,140.86,Card
+462,2025-07-23,Headphones,Kenitra,5,400,296.9,Cash
+463,2025-09-09,Keyboard,Rabat,4,250,186.47,Card
+464,2025-04-06,Headphones,Tangier,4,400,314.11,Bank Transfer
+465,2025-06-01,Mouse,Rabat,5,120,68.57,Bank Transfer
+466,2025-07-14,Laptop,Rabat,2,7500,4278.82,Bank Transfer
+467,2025-02-16,Mouse,Casablanca,1,120,75.5,Card
+468,2025-02-22,Mouse,Rabat,3,120,76.8,Cash
+469,2025-10-12,Monitor,Tangier,5,1800,1183.94,Card
+470,2025-10-11,Laptop,Casablanca,3,7500,4174.24,Bank Transfer
+471,2025-01-07,Headphones,Kenitra,4,400,298.44,Card
+472,2025-05-05,Mouse,Tangier,5,120,89.38,Bank Transfer
+473,2025-03-13,Monitor,Kenitra,2,1800,1298.39,Card
+474,2025-03-27,Keyboard,Marrakech,1,250,168.32,Card
+475,2025-07-04,Mouse,Kenitra,1,120,74.99,Cash
+476,2025-08-23,Mouse,Casablanca,2,120,83.81,Cash
+477,2025-06-20,Keyboard,Tangier,4,250,137.92,Card
+478,2025-11-30,Keyboard,Tangier,4,250,165.01,Cash
+479,2025-09-03,Keyboard,Kenitra,2,250,157.54,Cash
+480,2025-12-22,Mouse,Marrakech,3,120,95.06,Bank Transfer
+481,2025-07-21,Monitor,Kenitra,3,1800,1136.65,Cash
+482,2025-04-03,Headphones,Tangier,5,400,239.98,Cash
+483,2025-08-13,Mouse,Kenitra,2,120,94.29,Bank Transfer
+484,2025-12-11,Laptop,Marrakech,4,7500,5660.56,Cash
+485,2025-08-05,Keyboard,Marrakech,2,250,152.63,Cash
+486,2025-10-26,Mouse,Marrakech,4,120,95.72,Bank Transfer
+487,2025-10-06,Headphones,Casablanca,4,400,312.35,Card
+488,2025-02-25,Headphones,Rabat,1,400,279.38,Bank Transfer
+489,2025-01-23,Keyboard,Tangier,5,250,147.9,Bank Transfer
+490,2025-08-09,Mouse,Casablanca,3,120,95.0,Cash
+491,2025-09-23,Laptop,Tangier,5,7500,4610.13,Bank Transfer
+492,2025-07-20,Headphones,Marrakech,3,400,242.1,Bank Transfer
+493,2025-06-26,Headphones,Casablanca,2,400,289.04,Card
+494,2025-03-01,Laptop,Rabat,1,7500,4678.94,Card
+495,2025-09-24,Keyboard,Marrakech,2,250,158.94,Card
+496,2025-06-13,Mouse,Casablanca,4,120,68.93,Card
+497,2025-01-12,Laptop,Kenitra,1,7500,5644.1,Bank Transfer
+498,2025-05-05,Laptop,Tangier,2,7500,5394.64,Cash
+499,2025-08-07,Headphones,Marrakech,5,400,236.01,Cash
+500,2025-11-24,Mouse,Marrakech,2,120,84.89,Card
